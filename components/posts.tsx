@@ -15,8 +15,8 @@ export default async function Posts() {
             <h2 className="text-lg font-bold">{post.title}</h2>
             <p className="text-gray-500">{post.content}</p>
           </div>
-          {/* <DeleteButton id={post.id} /> */}
-          <OldDeleteButton id={post.id} />
+          <DeleteButton id={post.id} />
+          {/* <OldDeleteButton id={post.id} /> */}
         </div>
       ))}
     </div>
