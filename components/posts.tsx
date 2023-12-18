@@ -12,7 +12,7 @@ export default async function Posts() {
           className="bg-white shadow-md rounded-md p-4 flex justify-between items-center"
         >
           <div>
-            <h2 className="text-lg font-bold">{post.title}</h2>
+            <h2 className="text-lg font-bold text-black">{post.title}</h2>
             <p className="text-gray-500">{post.content}</p>
           </div>
           <DeleteButton id={post.id} />
