@@ -29,13 +29,13 @@ export function ActionsForm() {
         name="title"
         placeholder="Title"
         required
-        className="h-10 border border-gray-300 rounded-md p-2"
+        className="h-10 border border-gray-300 rounded-md p-2 text-black"
       />
       <textarea
         name="content"
         placeholder="Content"
         required
-        className="border border-gray-300 rounded-md p-2"
+        className="border border-gray-300 rounded-md p-2 text-black"
       />
       <FormButton />
     </form>
